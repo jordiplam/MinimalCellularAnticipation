@@ -137,8 +137,8 @@ function main()
 	
 	# Define system equations.
 	eqs = [
-		P	~ x/(x + y),
-		u	~ u_t(t),
+		P ~ x/(x + y),
+		u ~ u_t(t),
 		D(x) ~ α*u - δ*x,
 		D(y) ~ γ*(α*u - δ*y),
 	]
@@ -150,9 +150,9 @@ function main()
 	tspan = (-1e-3, 1e4)
 	u0 = [u => 0 for u in unknowns(sys)]
 	ps = [
-		:α	=> 1e-1,
-		:γ	=> 1e-2,
-		:δ	=> 1e-1,
+		:α => 1e-1,
+		:γ => 1e-2,
+		:δ => 1e-1,
 	]
 
 	# Noise generation parameters.
