@@ -1,7 +1,10 @@
 [deps]
 DataInterpolations = "82cc6244-b520-54b8-b5a6-8a565e85f1d0"
 DiffEqNoiseProcess = "77a26b50-5914-5dd7-bc55-306e6241c503"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 GLMakie = "e9467ef8-e4e7-5192-8a1a-b1aee30e663a"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
 RandomNumbers = "e6cf234a-135c-5ec9-84dd-332b85af5143"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
